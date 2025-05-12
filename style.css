@@ -1,0 +1,76 @@
+/* Resetarea stilurilor implicite */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setări generale pentru pagina web */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Fundal gri deschis */
+    color: #333; /* Culoare text standard */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container principal pentru a organiza conținutul */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Stil pentru titlul principal */
+h1 {
+    font-size: 2.5em;
+    color: #4A4A4A; /* Culoare text titlu */
+}
+
+/* Stil pentru paragrafe */
+p {
+    font-size: 1.2em;
+    color: #666; /* Culoare text paragrafe */
+    margin-bottom: 20px;
+}
+
+/* Stiluri pentru lista de programe */
+.programs {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* Culoare linkuri */
+}
+
+a:hover {
+    color: #0056b3; /* Culoare linkuri la hover */
+}
+
+/* Stiluri pentru imagine */
+.image-container {
+    margin-top: 30px;
+}
+
+.image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
